@@ -1,3 +1,4 @@
+// this function is called when button is clicked
 function getCurrentTime() {
     let server = document.getElementById("ntp").value;
     if (server.trim().length == 0) {
@@ -17,6 +18,8 @@ function getCurrentTime() {
 }
 
 // this function will be executed from python
+// msg is the argument received from python side
+// it will show the message received to user
 eel.expose(run_js_from_python);
 function run_js_from_python(msg) {
     document.getElementById("result").innerHTML = msg;

@@ -106,3 +106,4 @@ venv.bak/
 main.py
 
 top.html
+*.xlsx
