@@ -3,7 +3,7 @@ I was using Tkinter, but it was not simpler for me in case of UI design. I Perso
 This project is basic tutorial for eel where we will create GUI app for desktop and call Python functions from Javascript and vice-versa.
 
 ## Installation
-We need eel, ntplib for ou project to work.
+We need eel, ntplib for our project to work.
 ```bash
 pip install eel
 pip install ntplib
