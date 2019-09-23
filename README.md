@@ -9,7 +9,7 @@ pip install eel
 pip install ntplib
 ```
 
-Folder structure for out project will be as like as below diagram.
+Folder structure for our project will be as like as below diagram.
 ```bash
 
 eel_basic
